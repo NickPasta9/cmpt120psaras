@@ -6,6 +6,7 @@ MAX = 10000;
  
 primes = [];
 
+# JA: I'm not sure I understand this algorithm.
 def sieveSundaram():
      
    

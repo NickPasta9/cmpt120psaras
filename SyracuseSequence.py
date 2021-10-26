@@ -14,3 +14,5 @@ def main():
             print(str(num) + ", ", end= "")
         else:
             print(1)
+
+main()
