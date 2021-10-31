@@ -12,4 +12,6 @@ def main():
         c.draw(win)
         color = color + 1
 
+    win.getMouse()
+
 main()
