@@ -30,6 +30,8 @@ class Tracker():
         self.objToTrack = objToTrack
         self.objToTrack.draw(self.window)
 
+    # update()
+
 class Target:
     def __init__(self, window):
         p1 = Point(310,110)
@@ -39,3 +41,5 @@ class Target:
 
         rect = Rectangle(p1, p2)
         rect.draw(self.window)
+
+    # How do you know if the target is hit?
