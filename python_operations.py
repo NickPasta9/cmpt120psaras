@@ -13,13 +13,14 @@ def isin(myList, x):
     for i in myList:
         if i == x:
             return True
+    return False # JA
 
 #(c) index(myList, x)   (like myList.index(x))
 def index(myList, x):
     for i in range (len(myList)):
         if myList[i] == x:
             return i
-            break
+#            break
 
 #(d) reverse(myList)    (like myList.revers())
 def reverse(myList):
